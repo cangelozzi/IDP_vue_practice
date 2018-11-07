@@ -8,7 +8,11 @@ const vm = new Vue({
       {name: 'apple', flavour: 'tasty!'},
       {name: 'mango', flavour: 'fantastic!'},
       {name: 'apricot', flavour: 'gnammy!'}
-    ]
+    ],
+    targetURL: 'https://vuejs.org/v2/guide/',
+    anchorOff: true,
+    hazVue: true,
+    anotherMessage: 'This is another message using conditionals.'
   },
 
   methods: {

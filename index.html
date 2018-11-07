@@ -20,6 +20,14 @@
       </li>
     </ul>
 
+    <!-- BIND CLASS WITH VUE  -->
+    <a :href="targetURL" 
+    target="_blank"
+    :class="{ 'noDecorate': anchorOff }"
+    >Go to the VUE Documentation</a>
+
+    <p v-if='hazVue'>{{ anotherMessage }}</p>
+
   </main>
 
   <script src="js/main.js"></script>
