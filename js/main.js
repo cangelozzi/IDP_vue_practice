@@ -16,7 +16,8 @@ const vm = new Vue({
   },
 
   methods: {
-    logFruits(e) { console.log(e.currentTarget); }
+    logFruits(e) { console.log(e.currentTarget); },
+    hideMsg() { this.anotherMessage = 'Hey, how re you!';}
   }
 
 });
